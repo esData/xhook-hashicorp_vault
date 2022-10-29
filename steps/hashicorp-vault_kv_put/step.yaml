@@ -1,0 +1,26 @@
+---
+name: hashicorp-kv_get
+version: 0.1.0
+summary: Hashicorp KV get
+description: A simple step to read from Hashicorp KV get
+tags:
+  - kv_get
+  - secret
+parameters:
+  api_version:
+    description: Vault api version
+    type: string
+    default: v1
+  url:
+    description: Vault server end-point
+    type: string
+    default: 'http://127.0.0.1:8200'
+  token:
+    description: Vault token
+    type: secret
+  path:
+    description: Secret path
+    type: string
+  data:
+    description: KV data
+    type: json

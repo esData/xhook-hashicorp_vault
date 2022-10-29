@@ -1,0 +1,19 @@
+---
+name: hashicorp_vault-get
+summary: Hashicorp vault get to read secret
+description: This workflow demostrate the get secret capabiltities
+uri: https://github.com/esDataCo/tree/master/hashicorp_vault-get
+action_bound: both
+invokes:
+  - ttPAYMENT
+  - ttACCOUNT_SET
+tags:
+  - secret
+publish: public
+
+steps:
+  vault_kv_get_01:
+    step: hashicorp-vault_kv_get
+    parameters:
+      token: 'hvs.5iq6HaGCHTPSpYqJz2HQFFbE'
+      path: secret/data/users/cheehuan@esdata.co/accounts/$[parameters.account]
