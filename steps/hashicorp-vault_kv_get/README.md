@@ -1,3 +1,3 @@
-# hashicorp-kv_get
+# hashicorp-vault_kv_get
 
 Hashicorp KV get.

@@ -1,7 +1,7 @@
 ---
-name: hashicorp-kv_get
+name: hashicorp-vault_kv_put
 version: 0.1.0
-summary: Hashicorp KV get
+summary: Hashicorp KV put
 description: A simple step to read from Hashicorp KV get
 tags:
   - kv_get

@@ -1,5 +1,5 @@
 ---
-name: hashicorp-kv_get
+name: hashicorp-vault_kv_get
 version: 0.1.0
 summary: Hashicorp KV get
 description: A simple step to read from Hashicorp KV get
